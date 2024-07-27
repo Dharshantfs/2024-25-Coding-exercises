@@ -1,0 +1,28 @@
+Enter command (config/capacity/booking/add/cancel/vacate/exit): config
+Enter room count: 3
+Office configured with 3 meeting rooms: Room 1, Room 2, Room 3.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): capacity
+Enter room number and capacity (e.g., 1 10): 1 10
+Room 1 maximum capacity set to 10.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): capacity
+Enter room number and capacity (e.g., 1 10): 2 10
+Room 2 maximum capacity set to 10.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): capacity
+Enter room number and capacity (e.g., 1 10): 3 20
+Room 3 maximum capacity set to 20.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): booking
+Enter room number, start time (HH:mm), and duration in minutes (e.g., 1 09:00 60): 1 9:00 30
+Room 1 booked from 9:00 for 30 minutes.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): add
+Enter room number and number of occupants (e.g., 1 2): 1 7
+Room 1 is now occupied by 7 persons. AC and lights turned on.
+Turning on air conditioning and lights in Room 1.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): cancel
+Enter room number: 1
+Booking for Room 1 cancelled successfully.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): vacate
+Enter room number: 2
+Room 2 is already vacant.
+Enter command (config/capacity/booking/add/cancel/vacate/exit): exit
+
+Process finished with exit code 0
