@@ -8,7 +8,7 @@ public class PaymentGatewayExample {
         context.setPaymentStrategy(new CreditCardPayment("1223 4577 4568 4567"));
         context.executePayment(20000);
 
-        // Change strategy to PayPal payment
+        // Change strategy to gpay payment
         context.setPaymentStrategy(new gpay("dharsoff@gmail.com"));
         context.executePayment(200);
     }
